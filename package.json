@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-design-patterns-excercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarbanas/nodejs-design-patterns-excercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aarbanas/nodejs-design-patterns-excercise/issues"
+  },
+  "homepage": "https://github.com/aarbanas/nodejs-design-patterns-excercise#readme",
+  "devDependencies": {
+    "@types/node": "^20.1.2"
+  }
+}
