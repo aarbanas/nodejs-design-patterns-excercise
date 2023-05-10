@@ -12,6 +12,7 @@ class FindRegex extends EventEmitter {
         this.files = []
     }
 
+    // this is just a test
     addFile (file: string) {
         this.files.push(file)
         return this
