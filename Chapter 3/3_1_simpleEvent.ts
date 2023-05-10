@@ -1,5 +1,6 @@
 import { EventEmitter } from 'events'
 import { readFile } from 'fs'
+
 class FindRegex extends EventEmitter {
     
     regex: string = ''
@@ -18,7 +19,7 @@ class FindRegex extends EventEmitter {
 
     find () {
         process.nextTick(() => this.emit('info', 'Find process started', this.files))
-        
+
         for (const file of this.files) {
             readFile(file, 'utf-8', (err, content) => {
                 if (err) {
